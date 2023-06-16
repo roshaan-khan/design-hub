@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Logo Designer</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header class="navbar navbar-expand-md">
+    <a href="/" class="navbar-brand">
+      <h5 class="brand-name">Brand Name</h5>
+    </a>
+    <button class="d-md-none d-lg-none navbar-toggler d-sm-flex align-items-center" style="border-color: gray;"
+      type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon pb-1 text-white">⌄</span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="nav d-flex flex-column flex-md-row col-sm-12 col-md-10 mb-2 justify-content-md-center mb-md-0">
+        <li class="nav-item active"><a href="#" class="nav-link px-2 px-md-3">Home</a></li>
+        <li class="nav-item"><a href="/portfolio.html" class="nav-link px-2 px-md-3">Portfolio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 px-md-3">Payment Policy</a></li>
+      </ul>
+      <button type="button" class="contact-button btn btn-outline-light rounded-pill ml-lg-3 mt-md-0"
+        style="padding: 2px 4px;">Contact us</button>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+
+  <section class="main-section mt-lg-5 mt-md-5 mt-3 fade-in-element">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-12 d-flex align-items-center">
+          <div class="col-lg-12 col-md-12 d-flex flex-column align-items-center justify-content-center">
+            <div class="text-container">
+              <h1 class="main-heading text-lg-xl text-md-lg text-sm-xl text-white fw-bold">Let's Level Up Your Gaming
+                Experience!
+              </h1>
+              <h5 class="text-xl text-lg text-md text-sm-xl text-white mt-0 mt-lg-3">We create <span style="color: red;"
+                  id="typing-text"></span><span class="cursor"></span></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 d-flex justify-content-center col-md-12  mt-lg-0 mt-md-3 mt-3">
+          <div class="img-container col-md-8">
+            <img class="img-fluid blend-mode-image"
+              src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <sections class="mt-5">
+    <div class="container mt-4">
+      <div class="counter-section d-flex justify-content-around flex-lg-row flex-md-row flex-column ">
+        <div class="counter-item text-white mt-lg-0 mt-5">
+          <h2><span id="clients-count">0</span>+</h2>
+          <p>Clients</p>
+        </div>
+        <div class="counter-item text-white mt-lg-0 mt-5">
+          <h2><span id="logos-count">0</span>+</h2>
+          <p>Logos Made</p>
+        </div>
+        <div class="counter-item text-white mt-lg-0 mt-5">
+          <h2><span id="banners-count">0</span>+</h2>
+          <p>Banners Made</p>
+        </div>
+      </div>
+    </div>
+  </sections>
+
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="./main.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script>
+    const typed = new Typed('#typing-text', {
+      strings: ['Gaming Logos', 'Gaming Banners'],
+      typeSpeed: 80,
+      backSpeed: 50,
+      smartBackspace: true,
+      loop: true,
+      loopCount: Infinity,
+      startDelay: 1000,
+      backDelay: 2000,
+      showCursor: false,
+      shuffle: false,
+      cursorChar: '|',
+    });
+  </script>
+</body>
+
+
+</html>
