@@ -8,45 +8,9 @@ navLinks.forEach(link => {
 });
 
 
-// Animate the counter values
-function animateCounters() {
-    const clientsCount = 100; // Replace with the actual number of clients
-    const logosCount = 300; // Replace with the actual number of logos made
-    const bannersCount = 200; // Replace with the actual number of banners made
-  
-    const clientsElement = document.getElementById('clients-count');
-    const logosElement = document.getElementById('logos-count');
-    const bannersElement = document.getElementById('banners-count');
-  
-    let currentClientsCount = 0;
-    let currentLogosCount = 0;
-    let currentBannersCount = 0;
-  
-    const interval = setInterval(() => {
-      if (currentClientsCount === clientsCount && currentLogosCount === logosCount && currentBannersCount === bannersCount) {
-        clearInterval(interval); // Stop the counter animation
-        return;
-      }
-  
-      if (currentClientsCount < clientsCount) {
-        currentClientsCount++;
-        clientsElement.textContent = currentClientsCount;
-      }
-  
-      if (currentLogosCount < logosCount) {
-        currentLogosCount++;
-        logosElement.textContent = currentLogosCount;
-      }
-  
-      if (currentBannersCount < bannersCount) {
-        currentBannersCount++;
-        bannersElement.textContent = currentBannersCount;
-      }
-    }, 10); // Change the duration of the animation (in milliseconds) as desired
-  }
-  
-  // Call the function to animate the counters
-  window.addEventListener('scroll', animateCounters);
+
+
+
 
 
 // fade in on scroll
@@ -71,6 +35,87 @@ function animateCounters() {
       fadeElementInOnLoad(element);
     });
   });
+  
+
+  // Filter functionality
+  const filterButtons = document.querySelectorAll('.filter-button');
+const gridItems = document.querySelectorAll('.grid-item');
+
+filterButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const filter = button.dataset.filter;
+
+    filterButtons.forEach((btn) => {
+      btn.classList.remove('active');
+    });
+
+    button.classList.add('active');
+
+    gridItems.forEach((item) => {
+      const itemCategories = item.classList;
+
+      if (filter === 'all') {
+        item.style.opacity = '1';
+        item.style.transform = 'scale(1)';
+        item.style.display = 'block';
+      } else {
+        if (itemCategories.contains(filter)) {
+          item.style.opacity = '1';
+          item.style.transform = 'scale(1)';
+          item.style.display = 'block';
+        } else {
+          item.style.opacity = '0';
+          item.style.transform = 'scale(0.5)';
+          item.style.display = 'none';
+        }
+      }
+    });
+
+    // Hide the headings of non-matching categories
+    const headings = document.querySelectorAll('.section-heading');
+    headings.forEach((heading) => {
+      const headingCategory = heading.classList;
+
+      if (filter === 'all' || headingCategory.contains(filter)) {
+        heading.style.display = 'block';
+      } else {
+        heading.style.display = 'none';
+      }
+    });
+
+    // Wait for the animation to complete before triggering the fade-in animation
+    setTimeout(() => {
+      gridItems.forEach((item) => {
+        item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+        item.style.opacity = '1';
+        item.style.transform = 'scale(1)';
+      });
+    }, 0);
+  });
+});
+
+  
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("back-to-top").style.display = "block";
+  } else {
+    document.getElementById("back-to-top").style.display = "none";
+  }
+};
+
+// Function to smoothly scroll back to the top of the document
+function scrollToTop() {
+  const scrollToTop = window.setInterval(function() {
+    const pos = window.pageYOffset;
+    if (pos > 0) {
+      window.scrollTo(0, pos - 50); // Adjust scroll speed here (smaller value = faster scroll)
+    } else {
+      window.clearInterval(scrollToTop);
+    }
+  }, 5); // Adjust scroll interval here (smaller value = smoother scroll)
+}
+    
   
   
   

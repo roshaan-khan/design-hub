@@ -19,7 +19,7 @@
 <body>
 
   <!-- Header Section -->
-  <header class="navbar navbar-expand-md" style="margin-bottom: 7rem;">
+  <header class="navbar navbar-expand-md" style="margin-bottom: 8rem;">
     <a href="/" class="navbar-brand">
       <h5 class="brand-name">Brand Name</h5>
     </a>
@@ -30,10 +30,17 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="nav d-flex flex-column flex-md-row col-sm-12 col-md-10 mb-2 justify-content-md-center mb-md-0">
-        <li class="nav-item active"><a href="#" class="nav-link px-2 px-md-3 active">Home</a></li>
-        <li class="nav-item"><a href="/portfolio.html" class="nav-link px-2 px-md-3">Portfolio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 px-md-3">Payment Policy</a></li>
+        <li class="nav-item active px-0 px-md-4 px-lg-3 font-weight-bold"><a href="#"
+            class="nav-link px-2 px-md-3 active">Home</a></li>
+        <li class="nav-item px-0 px-md-4 px-lg-3 font-weight-bold"><a href="/portfolio.html"
+            class="nav-link px-2 px-md-3">Portfolio</a></li>
+        <li class="nav-item px-0 px-md-4 px-lg-3 font-weight-bold"><a href="#" class="nav-link px-2 px-md-3">Payment
+            Policy</a></li>
       </ul>
+      <button type="button" class="d-lg-none d-flex contact-button btn btn-outline-light rounded-pill ml-lg-3 mt-md-0"
+        style="padding: 2px 4px;">Contact us</button>
+    </div>
+    <div class="d-none d-lg-flex justify-content-end">
       <button type="button" class="contact-button btn btn-outline-light rounded-pill ml-lg-3 mt-md-0"
         style="padding: 2px 4px;">Contact us</button>
     </div>
@@ -51,7 +58,8 @@
           Experience!
         </h1>
         <h5 class="text-xl text-center mt-4 text-white mt-0 mt-lg-3" style="font-size: 25px;">We create <span
-            style="color: red;" id="typing-text"></span><span class="cursor"></span></h5>
+            style="background-color: rgb(223, 4, 4); color: white;" class="rounded font-weight-bold "
+            id="typing-text"></span><span class="cursor"></span></h5>
         <div class="container mt-5">
           <p class="text-white font-weight-bold hero-text text-center text-lg" style="font-size: 20px;">Welcome to our
             world of
@@ -67,22 +75,22 @@
 
 
   <!-- About us Section -->
-  <section class="main-section  mt-5 mt-md-5 mt-sm-3 fade-in-element" style="margin-bottom: 10rem;">
-    <div class="container About-us col-md-2 col-5 ">
+  <section class="main-section mt-5 mt-md-5 mt-sm-3 fade-in-element" style="margin-bottom: 10rem;">
+    <div class="container About-us col-md-2 col-5">
       <h1 class="text-xl text-center text-white">About Us</h1>
     </div>
     <div class="container mt-5">
       <div class="row">
-        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-md-6 d-flex align-items-center">
           <div class="text-section text-white" style="font-size: 22px;">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis laborum maiores eius quae ut itaque
-              consequatur quasi necessitatibus! Distinctio nesciunt fugit a aspernatur possimus deserunt, nostrum vitae
-              voluptas iste rerum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eaque adipisci nostrum consequatur! Illo
-              voluptatem molestias unde ut asperiores quae?</p>
+            <p class="text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+              laborum maiores eius quae ut itaque consequatur quasi necessitatibus! Distinctio nesciunt fugit a
+              aspernatur possimus deserunt, nostrum vitae voluptas iste rerum.</p>
+            <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              eaque adipisci nostrum consequatur! Illo voluptatem molestias unde ut asperiores quae?</p>
           </div>
         </div>
-        <div class="col-md-6 d-none d-lg-flex">
+        <div class="col-md-6">
           <div class="image-section">
             <img class="img-fluid about-image" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp"
               alt="About Us Image">
@@ -90,35 +98,36 @@
         </div>
       </div>
 
-      <div class="row mt-5">
-        <div class="col-md-6 d-none d-lg-flex">
-          <div class="image-section">
-            <img class="img-fluid about-image" src="./assets/vecteezy_graphic-designer-learning-program-software-painting-on-computer_.jpg"
-              alt="About Us Image">
+      <div class="row mt-5 flex-md-row-reverse">
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="text-section text-white" style="font-size: 22px;">
+            <p class="text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+              laborum maiores eius quae ut itaque consequatur quasi necessitatibus! Distinctio nesciunt fugit a
+              aspernatur possimus deserunt, nostrum vitae voluptas iste rerum.</p>
+            <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              eaque adipisci nostrum consequatur! Illo voluptatem molestias unde ut asperiores quae?</p>
           </div>
         </div>
-        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
-          <div class="text-section text-white" style="font-size: 22px;">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis laborum maiores eius quae ut itaque
-              consequatur quasi necessitatibus! Distinctio nesciunt fugit a aspernatur possimus deserunt, nostrum vitae
-              voluptas iste rerum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eaque adipisci nostrum consequatur! Illo
-              voluptatem molestias unde ut asperiores quae?</p>
+        <div class="col-md-6">
+          <div class="image-section">
+            <img class="img-fluid about-image"
+              src="./assets/vecteezy_graphic-designer-learning-program-software-painting-on-computer_.jpg"
+              alt="About Us Image">
           </div>
         </div>
       </div>
 
       <div class="row mt-5">
-        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+        <div class="col-md-6 d-flex align-items-center">
           <div class="text-section text-white" style="font-size: 22px;">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis laborum maiores eius quae ut itaque
-              consequatur quasi necessitatibus! Distinctio nesciunt fugit a aspernatur possimus deserunt, nostrum vitae
-              voluptas iste rerum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eaque adipisci nostrum consequatur! Illo
-              voluptatem molestias unde ut asperiores quae?</p>
+            <p class="text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis
+              laborum maiores eius quae ut itaque consequatur quasi necessitatibus! Distinctio nesciunt fugit a
+              aspernatur possimus deserunt, nostrum vitae voluptas iste rerum.</p>
+            <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              eaque adipisci nostrum consequatur! Illo voluptatem molestias unde ut asperiores quae?</p>
           </div>
         </div>
-        <div class="col-md-6 d-none d-lg-flex">
+        <div class="col-md-6">
           <div class="image-section">
             <img class="img-fluid about-image" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp"
               alt="About Us Image">
@@ -126,32 +135,50 @@
         </div>
       </div>
     </div>
-
-    
   </section>
 
+
+
+
+
+
+
+
   <!-- Dynamix Counter -->
-  <sections>
-    <div class="container mt-4">
-      <div class="counter-section d-flex justify-content-around flex-lg-row flex-md-row flex-column ">
-        <div class="counter-item text-white mt-lg-0 mt-5">
+  <section class="mt-4" style="margin-bottom: 5rem;">
+    <div class="container mt-4 mt-sm-0">
+      <div class="counter-section d-flex justify-content-between flex-lg-row flex-md-row flex-column ">
+        <div class="counter-item text-info mt-lg-0 mt-5">
           <h2><span id="clients-count">0</span>+</h2>
           <p>Clients</p>
         </div>
-        <div class="counter-item text-white mt-lg-0 mt-5">
+        <div class="counter-item text-danger mt-lg-0 mt-5">
           <h2><span id="logos-count">0</span>+</h2>
           <p>Logos Made</p>
         </div>
-        <div class="counter-item text-white mt-lg-0 mt-5">
+        <div class="counter-item text-success mt-lg-0 mt-5">
           <h2><span id="banners-count">0</span>+</h2>
           <p>Banners Made</p>
         </div>
       </div>
     </div>
-  </sections>
+  </section>
 
+  <!-- Last Section -->
+  <section class="mt-4">
+    <div class="container">
+      <p class="text-white text-justify" style="font-size: 18px;">
+        It is the trust and satisfaction of our clients that fuels our continuous pursuit of excellence. We constantly
+        push ourselves to explore new design concepts, stay updated with the latest trends, and refine our skills to
+        provide our clients with nothing short of exceptional logo designs. Seeing our clients' logos make a significant
+        impact on their businesses and leave a lasting impression on their customers is the ultimate validation of our
+        dedication and hard work. We are grateful for the opportunity to contribute to the success of our clients'
+        brands and look forward to continuing to create logos that are both different and dashing.
+      </p>
+    </div>
+  </section>
 
-
+  <button id="back-to-top" class="btn rounded-pill py-1 btn-danger" onclick="scrollToTop()">&#8593;</button>
 
 
 
@@ -165,7 +192,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
   <script>
     const typed = new Typed('#typing-text', {
-      strings: ['Gaming Logos', 'Gaming Banners'],
+      strings: ['Gaming Logos', 'Gaming Banners', 'Overlays', 'Emotes'],
       typeSpeed: 80,
       backSpeed: 50,
       smartBackspace: true,
@@ -177,6 +204,47 @@
       shuffle: false,
       cursorChar: '|',
     });
+  </script>
+  <script>
+    // Animate the counter values
+    function animateCounters() {
+      const clientsCount = 100; // Replace with the actual number of clients
+      const logosCount = 300; // Replace with the actual number of logos made
+      const bannersCount = 200; // Replace with the actual number of banners made
+
+      const clientsElement = document.getElementById('clients-count');
+      const logosElement = document.getElementById('logos-count');
+      const bannersElement = document.getElementById('banners-count');
+
+      let currentClientsCount = 0;
+      let currentLogosCount = 0;
+      let currentBannersCount = 0;
+
+      const interval = setInterval(() => {
+        if (currentClientsCount === clientsCount && currentLogosCount === logosCount && currentBannersCount === bannersCount) {
+          clearInterval(interval); // Stop the counter animation
+          return;
+        }
+
+        if (currentClientsCount < clientsCount) {
+          currentClientsCount++;
+          clientsElement.textContent = currentClientsCount;
+        }
+
+        if (currentLogosCount < logosCount) {
+          currentLogosCount++;
+          logosElement.textContent = currentLogosCount;
+        }
+
+        if (currentBannersCount < bannersCount) {
+          currentBannersCount++;
+          bannersElement.textContent = currentBannersCount;
+        }
+      }, 10); // Change the duration of the animation (in milliseconds) as desired
+    }
+
+    // Call the function to animate the counters
+    window.addEventListener('scroll', animateCounters);
   </script>
 </body>
 

@@ -9,12 +9,17 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
+  <!-- Include the necessary Lightbox library -->
+  <link rel="stylesheet" href="path/to/lightbox.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <script src="path/to/lightbox.js"></script>
+
 </head>
 
 <body>
 
   <!-- Header Section -->
-  <header class="navbar navbar-expand-md" style="margin-bottom: 7rem;">
+  <header class="navbar navbar-expand-md" style="margin-bottom: 5rem;">
     <a href="/" class="navbar-brand">
       <h5 class="brand-name">Brand Name</h5>
     </a>
@@ -25,14 +30,162 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="nav d-flex flex-column flex-md-row col-sm-12 col-md-10 mb-2 justify-content-md-center mb-md-0">
-        <li class="nav-item "><a href="/" class="nav-link px-2 px-md-3">Home</a></li>
-        <li class="nav-item"><a href="/portfolio.html" class="nav-link px-2 px-md-3 active">Portfolio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 px-md-3">Payment Policy</a></li>
+        <li class="nav-item  font-weight-bold px-0 px-md-4 px-lg-3"><a href="/" class="nav-link px-2 px-md-3">Home</a>
+        </li>
+        <li class="nav-item font-weight-bold px-0 px-md-4 px-lg-3"><a href="/portfolio.html"
+            class="nav-link px-2 px-md-3 active">Portfolio</a></li>
+        <li class="nav-item font-weight-bold px-0 px-md-4 px-lg-3"><a href="#" class="nav-link px-2 px-md-3">Payment
+            Policy</a></li>
       </ul>
       <button type="button" class="contact-button btn btn-outline-light rounded-pill ml-lg-3 mt-md-0"
         style="padding: 2px 4px;">Contact us</button>
     </div>
   </header>
+
+  <!-- Portfolio section -->
+  <section class="mt-2 fade-in-element">
+    <div class="container">
+      <div class="border border-top-0 border-left-0 border-right-0 border-bottom-1 w-25">
+        <h1 class="text-white text-xl" style="font-size: 50px;">Portfolio</h1>
+      </div>
+      <div class="mt-3">
+        <p class="text-white text-justify" style="font-size: 17px;">
+          Welcome to our portfolio, a curated collection of gaming graphics that showcases our expertise and creativity.
+          Within these virtual walls, you'll find a range of designs that push boundaries and redefine what's possible
+          in gaming aesthetics. Our portfolio is a testament to the collaborative process we undertake with our clients,
+          crafting visuals that not only capture their vision but exceed their expectations. Whether you're seeking a
+          sleek and modern logo or a vibrant and captivating banner, our portfolio offers a glimpse into the immersive
+          worlds we create. Step inside and embark on a visual journey through our gaming universe.
+        </p>
+      </div>
+
+
+
+  </section>
+
+  <div class="container mt-5">
+    <div class="filter-buttons">
+      <button class="filter-button active" data-filter="all" >All</button>
+      <button class="filter-button" data-filter="logos">Logos</button>
+      <button class="filter-button" data-filter="banners">Banners</button>
+    </div>
+    </div>
+  </div>
+
+  <section class="portfolio-section">
+    <div class="container">
+      <h2 class="section-heading text-white banners mt-5" style="font-size: 50px;">Banners</h2>
+      <div class="grid">
+        <div class="grid-item banners mb-5 mb-sm-2">
+          <a href="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="Banner 1">
+          </a>
+        </div>
+        <div class="grid-item banners mb-5 mb-sm-2">
+          <a href="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Banner 2">
+          </a>
+        </div>
+        <div class="grid-item banners mb-5 mb-sm-2">
+          <a href="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="Banner 1">
+          </a>
+        </div>
+        <div class="grid-item banners mb-5 mb-sm-2">
+          <a href="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Banner 2">
+          </a>
+        </div>
+        <div class="grid-item banners mb-5 mb-sm-2">
+          <a href="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="Banner 1">
+          </a>
+        </div>
+        <div class="grid-item banners mb-5 mb-sm-2">
+          <a href="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Banner 2">
+          </a>
+        </div>
+        <div class="grid-item banners mb-5 mb-sm-2">
+          <a href="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="Banner 1">
+          </a>
+        </div>
+        <div class="grid-item banners mb-5 mb-sm-2">
+          <a href="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Banner 2">
+          </a>
+        </div>
+        <div class="grid-item banners mb-5 mb-sm-2">
+          <a href="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="Banner 1">
+          </a>
+        </div>
+        <div class="grid-item banners mb-5 mb-sm-2">
+          <a href="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Banner 2">
+          </a>
+        </div>
+
+      </div>
+
+      <h2 class="section-heading text-white logos mt-5" style="font-size: 50px;">Logos</h2>
+      <div class="grid">
+        <div class="grid-item logos  mb-5 mb-sm-2">
+          <a href="./assets/logo1.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="Logo 1">
+          </a>
+        </div>
+        <div class="grid-item logos  mb-5 mb-sm-2">
+          <a href="./assets/logo2.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Logo 2">
+          </a>
+        </div>
+        <div class="grid-item logos  mb-5 mb-sm-2">
+          <a href="./assets/logo1.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="Logo 1">
+          </a>
+        </div>
+        <div class="grid-item logos  mb-5 mb-sm-2">
+          <a href="./assets/logo2.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Logo 2">
+          </a>
+        </div>
+        <div class="grid-item logos  mb-5 mb-sm-2">
+          <a href="./assets/logo1.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="Logo 1">
+          </a>
+        </div>
+        <div class="grid-item logos  mb-5 mb-sm-2">
+          <a href="./assets/logo2.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Logo 2">
+          </a>
+        </div>
+        <div class="grid-item logos  mb-5 mb-sm-2">
+          <a href="./assets/logo1.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="Logo 1">
+          </a>
+        </div>
+        <div class="grid-item logos  mb-5 mb-sm-2">
+          <a href="./assets/logo2.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Logo 2">
+          </a>
+        </div>
+        <div class="grid-item logos  mb-5 mb-sm-2">
+          <a href="./assets/logo1.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" alt="Logo 1">
+          </a>
+        </div>
+        <div class="grid-item logos  mb-5 mb-sm-2">
+          <a href="./assets/logo2.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Logo 2">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
 
 
@@ -42,9 +195,20 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+  <!-- LightBox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <script>
+    lightbox.option({
+      resizeDuration: 200,
+      wrapAround: true,
+      
+    });
+  </script>
+
   <!-- Custom JS -->
   <script src="./main.js"></script>
 
+  
 </body>
 
 </html>
