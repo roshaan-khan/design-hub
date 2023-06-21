@@ -46,7 +46,7 @@ function animateCounters() {
   }
   
   // Call the function to animate the counters
-  animateCounters();
+  window.addEventListener('scroll', animateCounters);
 
 
 // fade in on scroll
