@@ -4,6 +4,7 @@
 body {
   background: url("./assets/919046_OC3WJW0.jpg");
   font-family: 'Roboto', sans-serif;
+  margin-top: 8rem;
 }
 
 .contact-button {
@@ -117,6 +118,13 @@ a:hover {
 .grid-item {
   position: relative;
   overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.grid-item:hover {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5%;
 }
 
 .grid-item img {
@@ -126,7 +134,7 @@ a:hover {
 }
 
 .grid-item:hover img {
-  transform: scale(1.05);
+  transform: scale(1.07);
 }
 
 /* Lightbox overlay styles */

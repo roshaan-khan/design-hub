@@ -19,7 +19,7 @@
 <body>
 
   <!-- Header Section -->
-  <header class="navbar navbar-expand-md" style="margin-bottom: 5rem;">
+  <header class="navbar navbar-expand-md fixed-top" style="margin-bottom: 6rem; background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));">
     <a href="/" class="navbar-brand">
       <h5 class="brand-name">Brand Name</h5>
     </a>
@@ -37,8 +37,12 @@
         <li class="nav-item font-weight-bold px-0 px-md-4 px-lg-3"><a href="#" class="nav-link px-2 px-md-3">Payment
             Policy</a></li>
       </ul>
-      <button type="button" class="contact-button btn btn-outline-light rounded-pill ml-lg-3 mt-md-0"
+      <button type="button" class="d-lg-none d-flex contact-button btn btn-outline-light rounded-pill mx-1 mt-md-0"
         style="padding: 2px 4px;">Contact us</button>
+    </div>
+    <div class="d-none d-lg-flex justify-content-end">
+      <button type="button" class="contact-button btn btn-outline-light rounded-pill" style="padding: 2px 4px;">Contact
+        us</button>
     </div>
   </header>
 
@@ -65,7 +69,7 @@
 
   <div class="container mt-5">
     <div class="filter-buttons">
-      <button class="filter-button active" data-filter="all">All</button>
+      <button class="filter-button active" style="margin-left: 0;" data-filter="all">All</button>
       <button class="filter-button" data-filter="logos">Logos</button>
       <button class="filter-button" data-filter="banners">Banners</button>
     </div>
@@ -134,7 +138,7 @@
 
       </div>
 
-      <h2 class="section-heading text-white logos mt-5" style="font-size: 50px;">Logos</h2>
+      <h2 class="section-heading text-white logos mt-5 " style="font-size: 50px;">Logos</h2>
       <div class="grid">
         <div class="grid-item logos  mb-5 mb-sm-2">
           <a href="./assets/logo1.jpg" data-lightbox="logos">
@@ -206,6 +210,21 @@
       </p>
     </div>
   </section>
+
+  <footer style="margin-top: 7rem; background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5 class="text-white">Brand Name</h5>
+          <p class="text-white text-justify">We are a company specializing in providing high-quality products and services. With a commitment to excellence, we strive to meet the needs and exceed the expectations of our customers.</p>
+        </div>
+        <div class="col-md-6">
+          <h5 class="text-white">Contact Us</h5>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
