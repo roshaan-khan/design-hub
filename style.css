@@ -1,133 +1,154 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
-    background-color: #341564;
-    font-family: 'Roboto', sans-serif;
+body {
+  background: url("./assets/919046_OC3WJW0.jpg");
+  font-family: 'Roboto', sans-serif;
 }
 
 .contact-button {
-    border: 2px solid gray;
-    color: rgb(187, 182, 182);
+  border: 2px solid white;
+  color: white;
 }
 
 .contact-button:hover {
-    border: 2px solid white;
-    color: white;
-    background-color: #33334d;
+  border: 2px solid red;
+  color: red;
+  background-color: #33334d;
 }
 
-a{
-    text-decoration: none;
-    color: gray;
+.About-us {
+  border-bottom: 7px solid white;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  text-transform: uppercase;
 }
 
-a:hover{
-    text-decoration: none;
-    color: white;
+.about-image {
+  border-radius: 5rem;
 }
 
-.brand-name{
-    font-weight: bold;
-    font-size: 25px;
+.nav-link.active {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+.brand-name:hover {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
 }
 
 .image-container {
-    background-color: #33334d; /* Background color that matches the image's background */
-    width: 100%;
+  /* background-color: #33334d; */
+  width: 100%;
 }
 
 .blend-mode-image {
-    border-radius: 50rem;
-  }
+  border-radius: 50rem;
+  mix-blend-mode: color-burn;
+}
 
 .image-container img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
 
-#typing-text{
-    font-family: 'Poppins', sans-serif;
+#typing-text {
+  font-family: 'Poppins', sans-serif;
 }
 
 .counter-section {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .counter-item {
-    text-align: center;
-  }
-  
-  .counter-item h2 {
-    font-size: 3rem;
-    margin: 0;
-  }
-  
-  .counter-item p {
-    margin: 0;
-  }
+  display: flex;
+  justify-content: space-between;
+}
 
-  .fade-in-element {
-    opacity: 0;
-    transition: opacity 1s;
-  }
-  
-  .fade-in-element.fade-in {
-    opacity: 1;
-  }
-  
+.counter-item {
+  text-align: center;
+}
+
+.counter-item h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.counter-item p {
+  margin: 0;
+}
+
+.fade-in-element {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fade-in-element.fade-in {
+  opacity: 1;
+}
+
 
 .cursor {
-    display: inline-block;
-    width: 0.1rem;
-    height: 1.2rem;
-    margin-left: 0.2rem;
-    background-color: white;
-    animation: blinkCursor 1s infinite;
+  display: inline-block;
+  width: 0.1rem;
+  height: 1.2rem;
+  margin-left: 0.2rem;
+  background-color: white;
+  animation: blinkCursor 1s infinite;
+}
+
+@keyframes blinkCursor {
+  0% {
+    opacity: 1;
   }
 
-  @keyframes blinkCursor {
-    0% {
-      opacity: 1;
-    }
-
-    50% {
-      opacity: 0;
-    }
-
-    100% {
-      opacity: 1;
-    }
+  50% {
+    opacity: 0;
   }
 
-  @media (max-width: 1199.98px) {
-    .text-lg-xl {
-      font-size: 3rem;
-    }
-  
-    .text-md-lg {
-      font-size: 1.5rem;
-    }
-  
-    .text-sm-xl {
-      font-size: 2rem;
-    }
-  
-    .text-xl {
-      font-size: 1.5rem;
-    }
-  
-    .text-lg {
-      font-size: 1.5rem;
-    }
-  
-    .text-md {
-      font-size: 1.4rem;
-    }
+  100% {
+    opacity: 1;
   }
-  
-  
+}
+
+@media (max-width: 1199.98px) {
+  .text-lg-xl {
+    font-size: 3rem;
+  }
+
+  .text-md-lg {
+    font-size: 1.5rem;
+  }
+
+  .text-sm-xl {
+    font-size: 2rem;
+  }
+
+  .text-xl {
+    font-size: 1.5rem;
+  }
+
+  .text-lg {
+    font-size: 1.5rem;
+  }
+
+  .text-md {
+    font-size: 1.4rem;
+  }
+}
