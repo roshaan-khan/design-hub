@@ -283,14 +283,21 @@ a:hover {
   display: none;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .mobile-menu {
     display: block;
     position: fixed;
     top: 0;
     right: 70px;
     z-index: 1;
+  }
+
+  .nav-link{
+    display: none;
+  }
+
+  .contact-button{
+    display: none;
   }
 
   .mobile-menu .toggler {
@@ -427,6 +434,9 @@ a:hover {
     margin-left: 0;
   }
 }
+
+
+
 
 .grid-item.logos img {
   width: 100%;
