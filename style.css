@@ -433,6 +433,11 @@ a:hover {
     transition: color 0.4s ease;
     margin-left: 0;
   }
+
+  .logo-image{
+    display: flex;
+    align-items: center;
+  }
 }
 
 
