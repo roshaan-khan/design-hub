@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaming Logo Designer</title>
+  <title>Imagination Makers - Portfolio</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <!-- Custom CSS -->
@@ -21,9 +21,11 @@
   <!-- Header Section -->
   <header class="navbar navbar-expand-md fixed-top"
     style="margin-bottom: 6rem; background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));">
-    <a href="/" class="navbar-brand">
-      <h5 class="brand-name">Brand Name</h5>
-    </a>
+    <div class="d-flex align-items-center mx-0">
+      <a href="/" class="navbar-brand mt-2 mt-lg-0">
+        <h5 class="brand-name">Imagination Makers</h5>
+      </a>
+    </div>
     <!-- <button class="d-md-none d-lg-none navbar-toggler d-sm-flex align-items-center" style="border-color: gray;"
       type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
       aria-label="Toggle navigation" onclick="toggleNavbar()">
@@ -39,10 +41,6 @@
         <li class="nav-item font-weight-bold px-0 px-md-4 px-lg-3"><a href="#" class="nav-link px-2 px-md-3">Payment
             Policy</a></li>
       </ul>
-      <!-- <a href="/contact.html">
-        <button type="button" class="d-lg-none d-flex contact-button btn btn-outline-light rounded-pill mx-1 mt-md-0"
-          style="padding: 2px 4px;">Contact us</button>
-      </a> -->
     </div>
     <div class="d-none d-lg-flex justify-content-end">
       <a href="/contact.html">
@@ -53,7 +51,9 @@
     </div>
     <div class="mobile-menu">
       <input type="checkbox" class="toggler" role="checkbox" aria-checked="false" tabindex="0" />
-      <div class="hamburger"><div></div></div>
+      <div class="hamburger">
+        <div></div>
+      </div>
       <div class="menu">
         <div>
           <div>
@@ -67,7 +67,7 @@
         </div>
       </div>
     </div>
-  </div>
+    </div>
   </header>
 
   <!-- Portfolio section -->
@@ -96,6 +96,8 @@
       <button class="filter-button active" style="margin-left: 0;" data-filter="all">All</button>
       <button class="filter-button" data-filter="logos">Logos</button>
       <button class="filter-button" data-filter="banners">Banners</button>
+      <button class="filter-button" data-filter="overlays">Overlays</button>
+      <button class="filter-button" data-filter="emotes">emotes</button>
     </div>
   </div>
   </div>
@@ -103,124 +105,424 @@
   <section class="portfolio-section">
     <div class="container">
       <h2 class="section-heading text-white banners mt-5" style="font-size: 50px;">Banners</h2>
-      <div class="grid">
-        <div class="grid-item banners mb-5 mb-sm-2">
-          <a href="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" data-lightbox="banners">
-            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg"
-              alt="Banner 1">
+      <div class="grid" id="banner-grid">
+        <div class="grid-item banners">
+          <a href="./assets/banner/178551167002915.64552f417f7b8.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/178551167002915.64552f417f7b8.jpeg" alt="Banner 1">
           </a>
         </div>
-        <div class="grid-item banners mb-5 mb-sm-2">
-          <a href="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" data-lightbox="banners">
-            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Banner 2">
+        <div class="grid-item banners">
+          <a href="./assets/banner/1b1c2b167002915.6421f796131f2.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/1b1c2b167002915.6421f796131f2.jpeg" alt="Banner 2">
           </a>
         </div>
-        <div class="grid-item banners mb-5 mb-sm-2">
-          <a href="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" data-lightbox="banners">
-            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg"
-              alt="Banner 1">
+        <div class="grid-item banners">
+          <a href="./assets/banner/23160a167002915.64552f4182bf3.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/23160a167002915.64552f4182bf3.jpeg" alt="Banner 3">
           </a>
         </div>
-        <div class="grid-item banners mb-5 mb-sm-2">
-          <a href="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" data-lightbox="banners">
-            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Banner 2">
+        <div class="grid-item banners">
+          <a href="./assets/banner/24ed3c167002915.6421f79615800.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/24ed3c167002915.6421f79615800.jpeg" alt="Banner 4">
           </a>
         </div>
-        <div class="grid-item banners mb-5 mb-sm-2">
-          <a href="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" data-lightbox="banners">
-            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg"
-              alt="Banner 1">
+        <div class="grid-item banners">
+          <a href="./assets/banner/47d73e167002915.6421f796115b2.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/47d73e167002915.6421f796115b2.jpeg" alt="Banner 5">
           </a>
         </div>
-        <div class="grid-item banners mb-5 mb-sm-2">
-          <a href="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" data-lightbox="banners">
-            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Banner 2">
+        <div class="grid-item banners">
+          <a href="./assets/banner/6977e7167002915.6421f79613b75.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/6977e7167002915.6421f79613b75.jpeg" alt="Banner 6">
           </a>
         </div>
-        <div class="grid-item banners mb-5 mb-sm-2">
-          <a href="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" data-lightbox="banners">
-            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg"
-              alt="Banner 1">
+        <div class="grid-item banners">
+          <a href="./assets/banner/7c1d99167002915.648b403e5a4bf.png" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/7c1d99167002915.648b403e5a4bf.png" alt="Banner 7">
           </a>
         </div>
-        <div class="grid-item banners mb-5 mb-sm-2">
-          <a href="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" data-lightbox="banners">
-            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Banner 2">
+        <div class="grid-item banners">
+          <a href="./assets/banner/85f39c167002915.64552f4181f92.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/85f39c167002915.64552f4181f92.jpeg" alt="Banner 8">
           </a>
         </div>
-        <div class="grid-item banners mb-5 mb-sm-2">
-          <a href="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg" data-lightbox="banners">
-            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg"
-              alt="Banner 1">
+        <div class="grid-item banners">
+          <a href="./assets/banner/99a3c2167002915.6421f796144d1.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/99a3c2167002915.6421f796144d1.jpeg" alt="Banner 9">
           </a>
         </div>
-        <div class="grid-item banners mb-5 mb-sm-2">
-          <a href="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" data-lightbox="banners">
-            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Banner 2">
+        <div class="grid-item banners">
+          <a href="./assets/banner/c18dcc167002915.648b403e5c3ac.jpg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/c18dcc167002915.648b403e5c3ac.jpg" alt="Banner 10">
           </a>
         </div>
-
+        <div class="grid-item banners">
+          <a href="./assets/banner/c40478167002915.648b403e5b914.jpg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/c40478167002915.648b403e5b914.jpg" alt="Banner 11">
+          </a>
+        </div>
+        <div class="grid-item banners">
+          <a href="./assets/banner/c68cd0167002915.64552f41803e3.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/c68cd0167002915.64552f41803e3.jpeg" alt="Banner 12">
+          </a>
+        </div>
+        <div class="grid-item banners">
+          <a href="./assets/banner/d2e19e167002915.64552f417ea09.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/d2e19e167002915.64552f417ea09.jpeg" alt="Banner 13">
+          </a>
+        </div>
+        <div class="grid-item banners">
+          <a href="./assets/banner/e5ed8c167002915.64552f4181108.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/e5ed8c167002915.64552f4181108.jpeg" alt="Banner 14">
+          </a>
+        </div>
+        <div class="grid-item banners">
+          <a href="./assets/banner/fe6ae1167002915.6421f79610277.jpeg" data-lightbox="banners">
+            <img class="rounded-lg" src="./assets/banner/fe6ae1167002915.6421f79610277.jpeg" alt="Banner 16">
+          </a>
+        </div>
       </div>
 
       <h2 class="section-heading text-white logos mt-5 " style="font-size: 50px;">Logos</h2>
       <div class="grid">
-        <div class="grid-item logos  mb-5 mb-sm-2">
-          <a href="./assets/logo1.jpg" data-lightbox="logos">
-            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg"
+        <div class="grid-item logos">
+          <a href="./assets/logos/0429e0167001457.6421f56428d35.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/0429e0167001457.6421f56428d35.jpeg"
               alt="Logo 1">
           </a>
         </div>
-        <div class="grid-item logos  mb-5 mb-sm-2">
-          <a href="./assets/logo2.jpg" data-lightbox="logos">
-            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Logo 2">
+        <div class="grid-item logos">
+          <a href="./assets/logos/16e5b7167001457.6421f5641d744.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/16e5b7167001457.6421f5641d744.jpeg" alt="Logo 2">
           </a>
         </div>
-        <div class="grid-item logos  mb-5 mb-sm-2">
-          <a href="./assets/logo1.jpg" data-lightbox="logos">
-            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg"
-              alt="Logo 1">
+        <div class="grid-item logos">
+          <a href="./assets/logos/188a56167001457.64553d1c9c353.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/188a56167001457.64553d1c9c353.jpeg"
+              alt="Logo 3">
           </a>
         </div>
-        <div class="grid-item logos  mb-5 mb-sm-2">
-          <a href="./assets/logo2.jpg" data-lightbox="logos">
-            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Logo 2">
+        <div class="grid-item logos ">
+          <a href="./assets/logos/1a2425167001457.64553d1c9abfb.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/1a2425167001457.64553d1c9abfb.jpeg" alt="Logo 4">
           </a>
         </div>
-        <div class="grid-item logos  mb-5 mb-sm-2">
-          <a href="./assets/logo1.jpg" data-lightbox="logos">
-            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg"
-              alt="Logo 1">
+        <div class="grid-item logos">
+          <a href="./assets/logos/2306e7167001457.6421f56425a4d.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/2306e7167001457.6421f56425a4d.jpeg" alt="Logo 6">
           </a>
         </div>
-        <div class="grid-item logos  mb-5 mb-sm-2">
-          <a href="./assets/logo2.jpg" data-lightbox="logos">
-            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Logo 2">
+        <div class="grid-item logos ">
+          <a href="./assets/logos/27c46c167001457.6421f5642733f.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/27c46c167001457.6421f5642733f.jpeg"
+              alt="Logo 7">
           </a>
         </div>
-        <div class="grid-item logos  mb-5 mb-sm-2">
-          <a href="./assets/logo1.jpg" data-lightbox="logos">
-            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg"
-              alt="Logo 1">
+        <div class="grid-item logos ">
+          <a href="./assets/logos/29fcf3167001457.6421f564176ef.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/29fcf3167001457.6421f564176ef.jpeg" alt="Logo 8">
           </a>
         </div>
-        <div class="grid-item logos  mb-5 mb-sm-2">
-          <a href="./assets/logo2.jpg" data-lightbox="logos">
-            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Logo 2">
+        <div class="grid-item logos ">
+          <a href="./assets/logos/304ecc167001457.6421f56423445.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/304ecc167001457.6421f56423445.jpeg"
+              alt="Logo 9">
           </a>
         </div>
-        <div class="grid-item logos  mb-5 mb-sm-2">
-          <a href="./assets/logo1.jpg" data-lightbox="logos">
-            <img class="rounded-lg" src="./assets/guardian-head-esports-mascot-logo-design-vector-29975969.jpg"
-              alt="Logo 1">
+        <div class="grid-item logos ">
+          <a href="./assets/logos/5bf74f167001457.6421f5642a81f.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/5bf74f167001457.6421f5642a81f.jpeg" alt="Logo 11">
           </a>
         </div>
-        <div class="grid-item logos  mb-5 mb-sm-2">
-          <a href="./assets/logo2.jpg" data-lightbox="logos">
-            <img class="rounded-lg" src="./assets/markus-spiske-fpTVkXjxL_Y-unsplash-2x_HEiesmHe.webp" alt="Logo 2">
+        <div class="grid-item logos ">
+          <a href="./assets/logos/62fcf5167001457.64553d1c9b86b.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/62fcf5167001457.64553d1c9b86b.jpeg" alt="Logo 12">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/6a108c167001457.6421f56429bad.jpg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/6a108c167001457.6421f56429bad.jpg" alt="Logo 13">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/6bd989167001457.6421f564209c3.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/6bd989167001457.6421f564209c3.jpeg" alt="Logo 14">
+          </a>
+        </div>
+        <div class="grid-item logos">
+          <a href="./assets/logos/755267167001457.64553d1c9a059.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/755267167001457.64553d1c9a059.jpeg" alt="Logo 15">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/77f588167001457.6421f56418f51.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/77f588167001457.6421f56418f51.jpeg" alt="Logo 16">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/7c26a3167001457.6421f56424e37.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/7c26a3167001457.6421f56424e37.jpeg" alt="Logo 17">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/8d6b30167001457.6421f5642670b.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/8d6b30167001457.6421f5642670b.jpeg" alt="Logo 18">
+          </a>
+        </div>
+        <div class="grid-item logos">
+          <a href="./assets/logos/8d6cd8167001457.6421f5642263c.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/8d6cd8167001457.6421f5642263c.jpeg" alt="Logo 19">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/982921167001457.64553d1c986d7.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/982921167001457.64553d1c986d7.jpeg" alt="Logo 20">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/982921167001457.64553d1c986d7.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/991d82167001457.6421f5642419f.jpeg" alt="Logo 21">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/b308d8167001457.648b40f693afc.png" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/b308d8167001457.648b40f693afc.png" alt="Logo 23">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/b37b13167001457.6421f56427f6c.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/b37b13167001457.6421f56427f6c.jpeg" alt="Logo 24">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/ba25d4167001457.6421f56407c2c.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/ba25d4167001457.6421f56407c2c.jpeg" alt="Logo 25">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/be0127167001457.6421f564218ff.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/be0127167001457.6421f564218ff.jpeg" alt="Logo 26">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/c930d4167001457.64553d1c99471.jpeg" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/c930d4167001457.64553d1c99471.jpeg" alt="Logo 27">
+          </a>
+        </div>
+        <div class="grid-item logos ">
+          <a href="./assets/logos/e5b70b167001457.648b40f68dfa6.png" data-lightbox="logos">
+            <img class="rounded-lg" src="./assets/logos/e5b70b167001457.648b40f68dfa6.png" alt="Logo 29">
           </a>
         </div>
       </div>
-    </div>
+
+      <h2 class="section-heading text-white overlays mt-5 " style="font-size: 50px;">Overlays</h2>
+      <div class="grid">
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/06cda8167003945.6421fd02640ae.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/06cda8167003945.6421fd02640ae.jpeg" alt="overlay 1">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/176bdb167003945.6421fd0263300.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/176bdb167003945.6421fd0263300.jpeg" alt="overlay 2">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/1b3dc5167003945.6421fd026be9b.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/1b3dc5167003945.6421fd026be9b.jpeg" alt="overlay 3">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/21f023167003945.645534c1ecf9b.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/21f023167003945.645534c1ecf9b.jpeg" alt="overlay 4">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/2b83c0167003945.6421fd026ff1a.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/2b83c0167003945.6421fd026ff1a.jpeg" alt="overlay 5">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/f86527167003945.6421fd026ac73.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/f86527167003945.6421fd026ac73.jpeg" alt="overlay 6">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/5472f1167003945.645534c1ef5cd.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/5472f1167003945.645534c1ef5cd.jpeg" alt="overlay 7">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/551aac167003945.6421fd026ce9e.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/551aac167003945.6421fd026ce9e.jpeg" alt="overlay 8">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/56c81d167003945.6421fd026dafd.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/2b83c0167003945.6421fd026ff1a.jpeg" alt="overlay 9">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/6596ab167003945.6421fd026f362.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/6596ab167003945.6421fd026f362.jpeg" alt="overlay 10">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/67b65b167003945.6421fd0270e42.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/67b65b167003945.6421fd0270e42.jpeg" alt="overlay 11">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/69415d167003945.645534c1e99ca.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/69415d167003945.645534c1e99ca.jpeg" alt="overlay 12">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/6ae0b8167003945.648b42ed6d897.png" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/6ae0b8167003945.648b42ed6d897.png" alt="overlay 13">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/8ae416167003945.645534c1eb64e.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/8ae416167003945.645534c1eb64e.jpeg" alt="overlay 14">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/a05cf8167003945.6421fd0272528.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/a05cf8167003945.6421fd0272528.jpeg" alt="overlay 15">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/af3c33167003945.645524131a47e.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/af3c33167003945.645524131a47e.jpeg" alt="overlay 16">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/afe9dc167003945.6421fd02688b8.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/afe9dc167003945.6421fd02688b8.jpeg" alt="overlay 17">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/c277dc167003945.645534c1ee0cf.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/c277dc167003945.645534c1ee0cf.jpeg" alt="overlay 18">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/df9832167003945.6421fd02677f5.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/df9832167003945.6421fd02677f5.jpeg" alt="overlay 19">
+          </a>
+        </div>
+        <div class="grid-item overlays">
+          <a href="./assets/overlays/e51633167003945.6421fd0264dee.jpeg" data-lightbox="overlays">
+            <img class="rounded-lg" src="./assets/overlays/e51633167003945.6421fd0264dee.jpeg" alt="overlay 20">
+          </a>
+        </div>
+      </div>
+
+      <h2 class="section-heading text-white emotes mt-5 " style="font-size: 50px;">Emotes</h2>
+      <div class="grid">
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/01d948167003327.6421f990256c0.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/01d948167003327.6421f990256c0.jpeg" alt="emote 1">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/076696167003327.6421f9903fabc.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/076696167003327.6421f9903fabc.jpeg" alt="emote 2">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/12317c167003327.6421f9901a3be.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/12317c167003327.6421f9901a3be.jpeg" alt="emote 3">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/12f210167003327.6421f99046b90.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/12f210167003327.6421f99046b90.jpeg" alt="emote 4">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/24bd6a167003327.648b3b493c70a.jpg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/24bd6a167003327.648b3b493c70a.jpg" alt="emote 5">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/24bd6a167003327.648b3b493c70a.jpg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/24bd6a167003327.648b3b493c70a.jpg" alt="emote 6">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/24bd6a167003327.648b3b493c70a.jpg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/24bd6a167003327.648b3b493c70a.jpg" alt="emote 7">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/35bb41167003327.6421f990353df.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/35bb41167003327.6421f990353df.jpeg" alt="emote 8">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/36e165167003327.6421f9904929a.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/36e165167003327.6421f9904929a.jpeg" alt="emote 9">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/3b9104167003327.6421f99027d12.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/3b9104167003327.6421f99027d12.jpeg" alt="emote 10">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/4934e9167003327.6421f9902ccca.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/4934e9167003327.6421f9902ccca.jpeg" alt="emote 11">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/498297167003327.6421f9904810c.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/498297167003327.6421f9904810c.jpeg" alt="emote 12">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/50a2f7167003327.6421f9903dfd3.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/50a2f7167003327.6421f9903dfd3.jpeg" alt="emote 13">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/5f8605167003327.6421f9902b9a7.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/5f8605167003327.6421f9902b9a7.jpeg" alt="emote 15">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/702f92167003327.6421f990219ee.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/702f92167003327.6421f990219ee.jpeg" alt="emote 16">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/77bbde167003327.6421f990399ef.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/77bbde167003327.6421f990399ef.jpeg" alt="emote 17">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/7ee193167003327.6421f9902a732.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/7ee193167003327.6421f9902a732.jpeg" alt="emote 18">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/8dd46c167003327.6421f9901b820.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/8dd46c167003327.6421f9901b820.jpeg" alt="emote 19">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/9ce93e167003327.6421f9901ef57.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/9ce93e167003327.6421f9901ef57.jpeg" alt="emote 20">
+          </a>
+        </div>
+        <div class="grid-item emotes">
+          <a href="./assets/emotes/9f2f0d167003327.6421f990290a1.jpeg" data-lightbox="emotes">
+            <img class="rounded-lg" src="./assets/emotes/9f2f0d167003327.6421f990290a1.jpeg" alt="emote 21">
+          </a>
+        </div>
+      </div>
   </section>
 
   <section class="mt-4">
@@ -235,43 +537,46 @@
     </div>
   </section>
 
-<!-- Footer section -->
-<footer style="margin-top: 7rem; background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));" class="py-5">
-  <div class="container">
+  <!-- Footer section -->
+  <footer style="margin-top: 7rem; background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));" class="py-5">
+    <div class="container">
       <div class="row">
-          <div class="col-md-6">
-              <h5 class="text-white">Brand Name</h5>
-              <p class="text-white text-justify">We are a company specializing in providing high-quality products
-                  and services. With a commitment to excellence, we strive to meet the needs and exceed the
-                  expectations of our customers.</p>
-          </div>
-          <div class="col-md-6">
-              <h5 class="text-white">Social Links</h5>
-              <p class="text-white">Stay connected with us on social media for the latest updates, news, and special offers.
+        <div class="col-md-6">
+          <h5 class="text-white">Brand Name</h5>
+          <p class="text-white text-justify">We are a company specializing in providing high-quality products
+            and services. With a commitment to excellence, we strive to meet the needs and exceed the
+            expectations of our customers.</p>
+        </div>
+        <div class="col-md-6">
+          <h5 class="text-white">Social Links</h5>
+          <p class="text-white">Stay connected with us on social media for the latest updates, news, and special offers.
+          </p>
+          <div class="d-flex">
+            <div class="">
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-facebook text-white" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                  </path>
+                </svg> <span class="text-white px-1">Facebook</span>
               </p>
-                  <div class="d-flex">
-                      <div class="">
-                          <p>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                 class="bi bi-facebook text-white" viewBox="0 0 16 16">
-                                 <path
-                                     d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
-                                 </path>
-                             </svg> <span class="text-white px-1">Facebook</span>
-                         </p>
-                      </div>
-                      <div class="mx-4">
-                          <p class="text-white">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
-                                </svg><span class="text-white px-2">Instagram</span>
-                         </p>
-                      </div>
-                  </div>
+            </div>
+            <div class="mx-4">
+              <p class="text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                  </path>
+                </svg><span class="text-white px-2">Instagram</span>
+              </p>
+            </div>
           </div>
+        </div>
       </div>
-  </div>
-</footer>
+    </div>
+  </footer>
 
 
   <button id="back-to-top" class="btn rounded-pill py-1 btn-danger" onclick="scrollToTop()">&#8593;</button>
@@ -295,7 +600,6 @@
 
   <!-- Custom JS -->
   <script src="./main.js"></script>
-
 
 </body>
 

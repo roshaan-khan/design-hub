@@ -116,15 +116,4 @@ function scrollToTop() {
   }, 5); // Adjust scroll interval here (smaller value = smoother scroll)
 }
     
-  
-function toggleNavbar() {
-  var navbarIcon = document.getElementById("navbarIcon");
-  
-  if (navbarIcon.innerText === "⌄") {
-    navbarIcon.style.paddingTop = "0.5rem";
-    navbarIcon.innerText = "⌃";
-  } else {
-    navbarIcon.innerText = "⌄";
-    navbarIcon.style.paddingTop = "0";
-  }
-}
+

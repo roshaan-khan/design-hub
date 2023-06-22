@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 body {
   background: url("./assets/919046_OC3WJW0.jpg");
@@ -130,11 +131,11 @@ a:hover {
 .grid-item img {
   width: 100%;
   height: auto;
-  transition: transform 0.3s ease;
+  transition: transform 0.4s ease;
 }
 
 .grid-item:hover img {
-  transform: scale(1.07);
+  transform: scale(1.08);
 }
 
 /* Lightbox overlay styles */
@@ -409,7 +410,7 @@ a:hover {
   .mobile-menu .menu > div > div > ul {
     flex-direction: column;
     margin-right: 2.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
   }
 
   .mobile-menu .menu > div > div > ul > li {
@@ -425,4 +426,38 @@ a:hover {
     transition: color 0.4s ease;
     margin-left: 0;
   }
+}
+
+.grid-item.logos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item.overlays img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item.emotes img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.web-logo{
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.brand-name{
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.brand-name:hover{
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
 }
