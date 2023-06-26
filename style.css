@@ -7,6 +7,8 @@ body {
   background: url("./assets/919046_OC3WJW0.jpg");
   font-family: 'Roboto', sans-serif;
   margin-top: 8rem;
+  padding: 0;
+  height: 100%;
 }
 
 .contact-button {
@@ -510,12 +512,11 @@ a:hover {
 /* making footer stick to bottom using calc */
 
 footer {
-  width: 100%;
-  height: 14.5rem;
-  /* Set the fixed height of the footer here */
-  line-height: 1.5rem;
-  /* Vertically center the text there */
-  background-color: #33334d;
+  position: relative;
+  margin-top: calc(100% - 7rem);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  padding: 2rem 0;
+  color: white;
 }
 
 @import './bootstrap.min.css';
