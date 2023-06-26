@@ -506,4 +506,17 @@ a:hover {
   }
 }
 
+
+/* making footer stick to bottom using calc */
+
+footer {
+  width: 100%;
+  height: 14.5rem;
+  /* Set the fixed height of the footer here */
+  line-height: 1.5rem;
+  /* Vertically center the text there */
+  background-color: #33334d;
+}
+
 @import './bootstrap.min.css';
+
